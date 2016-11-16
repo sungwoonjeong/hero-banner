@@ -26,7 +26,7 @@ body {
 .banner-content {
   position: absolute;
   left: 25px;
-  bottom: 30px;
+  bottom: 40px;
   width: 100%;
   max-width: 50em;
 }
@@ -40,11 +40,12 @@ span {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-weight: bolder;
-    margin: 0;
+    margin: 0 0 1em;
+    padding: 0;
 }
 
 p {
   font-size: 2rem;
-  margin: .75rem;
   font-style: italic;
+  margin: 1rem 0 0;
 }
