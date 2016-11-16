@@ -11,36 +11,40 @@ body {
   margin: 0;
 }
 
+.banner {
+  position: relative;
+  text-align: left;
+  max-height: 500px;
+  overflow: hidden;
+}
+
 .img-flex {
   display: block;
   width: 100%;
 }
 
-.banner {
-  overflow: hidden;
-  position: relative;
-}
-
 .banner-content {
   position: absolute;
-  left: 1em;
-  top: 1em;
-  max-height: 500px;
+  left: 25px;
+  bottom: 30px;
+  width: 100%;
   max-width: 50em;
 }
 
 h2 {
   margin: 0;
+  font-size: 4rem;
 }
 
 span {
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 4rem;
     color: #fff;
+    font-weight: bolder;
     margin: 0;
 }
 
 p {
   font-size: 2rem;
-  margin: 0;
+  margin: .75rem;
+  font-style: italic;
 }
