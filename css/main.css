@@ -21,19 +21,25 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+  clear: left;
 }
 
 .banner-content {
   position: absolute;
-  left: 25px;
-  bottom: 40px;
+  right: 275px;
+  bottom: 30px;
   width: 100%;
   max-width: 50em;
+  margin-bottom: auto;
+  margin-left: auto;
+  
+
 }
 
 h2 {
   margin: 0;
   font-size: 4rem;
+
 }
 
 span {
